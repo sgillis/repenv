@@ -17,12 +17,12 @@
 
 ## The contenders
 
-* Virtualenv
 * Buildout
 * Virtual machines
-* Debian/CentOS/... packages
-* Conda
 * Docker
+* Debian/CentOS/... packages
+* Virtualenv
+* Conda
 * Nix
 * Pex (with Pants)
 
