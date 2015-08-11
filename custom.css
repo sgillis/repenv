@@ -1,0 +1,29 @@
+.reveal section img {
+    border: 0px;
+    background: None;
+    box-shadow: None;
+}
+
+.reveal .slide-background {
+    background-size: auto;
+}
+
+.reveal .slide-background.present {
+    opacity: 0.1;
+}
+
+.reveal h1 {
+    font-size: 6em;
+}
+
+.reveal h2 {
+    font-size: 4em;
+}
+
+.reveal h3 {
+    font-size: 3em;
+}
+
+.reveal pre {
+    margin: 50px;
+}
