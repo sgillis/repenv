@@ -6,9 +6,12 @@
 
 <div>
 <ul>
-<li>CI/CD -> reproducible environments</li>
-<li>Easy set up for new devs</li>
-<li>Bring development, testing, staging, production closer together</li>
+<li>Easy to set up for new devs, decrease onboarding time</li>
+<li>Lightweight, cross platform, easy to understand solution</li>
+<li>Package once, run anywhere</li>
+<li>Close the gap between application and configuration management</li>
+<li>Align development, testing, staging, production</li>
+<li>Run multiple versions side by side</li>
 </ul>
 </div>
 <!-- .element: class="fragment" -->
@@ -61,7 +64,7 @@ Buildout is a Python-based build system
 ### Con
 
 * System dependencies
-* Not used much outside Zope/Plone community
+* Not used much outside Zope/Plone community, *lacking commercial interest*
 * No easy solution for managing dependencies between services
 
 ---
@@ -72,7 +75,7 @@ Buildout is a Python-based build system
 
 * Completely reproducible enviroment
 * Very well proven tech
-
+* *Used by industry giants (Adobe, Symantec, Hewlett-Packard, CapGemini, AT&T, Nokia, ...)*
 ---
 
 ## Virtual machines
@@ -87,9 +90,10 @@ Buildout is a Python-based build system
 
 ### Pro
 
-* Completely reproducible environment
+* Completely reproducible environment, much faster than VMs
 * Managing and linking multiple services is easy
-* Much faster than VMs
+* *Easy to distribute, including versioning (push, pull via a docker registry)*
+* *Used by industry giants (Google, Amazon, Spotify, ...)*
 
 ---
 
@@ -98,3 +102,11 @@ Buildout is a Python-based build system
 ### Con
 
 * Newer technology
+
+---
+
+## Conclusion
+
+1. Docker
+2. VM's
+3. Buildout
