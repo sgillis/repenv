@@ -46,12 +46,6 @@
 
 ## Buildout
 
-Buildout is a Python-based build system
-
----
-
-## Buildout
-
 ### Pro
 
 * Close to virtualenv spirit, but better
